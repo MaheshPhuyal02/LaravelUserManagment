@@ -28,15 +28,8 @@ Usermanagment is a simple project created with laravel. This is a first laravel 
 </thead>
 <tbody>
 <tr>
-<td><a href="https://nodejs.org/en/" rel="nofollow">Node</a></td>
-<td>V14.19.1+</td>
-</tr>
-<tr>
-<td><a href="https://nodejs.org/en/" rel="nofollow">Npm</a></td>
-<td>V6.14.16+</td>
-</tr>
-<tr>
-<td><a href="https://getcomposer.org/" rel="nofollow">Composer</a></td>
+<td>
+<a href="https://getcomposer.org/" rel="nofollow">Composer</a></td>
 <td>V2.2.6+</td>
 </tr>
 <tr>
@@ -49,6 +42,28 @@ Usermanagment is a simple project created with laravel. This is a first laravel 
 </tr>
 </tbody>
 </table>
+
+## Setup
+First install xampp and run php(Apache) and mysql. Go to xampp folder and inside htdocs :
+
+1. Clone this repo
+<pre>git clone https://github.com/MaheshPhuyal02/LaravelUserManagment.git </pre>
+
+2. Go to folder
+<pre>cd LaravelUserManagment</pre>
+
+3. Create database
+Create database <pre>laravel_form</pre>
+
+4. Install libaries
+<pre>composer install</pre>
+
+5. Run migration
+<pre>php artisan migrate</pre>
+
+6. Run 
+Open your broswer and go to url <pre>localhost/LaravelUserManagment/public</pre>
+
 
 ## About Laravel
 
@@ -69,5 +84,3 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Setup
