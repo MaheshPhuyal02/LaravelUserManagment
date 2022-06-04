@@ -53,7 +53,7 @@ First install xampp and run php(Apache) and mysql. Go to xampp folder and inside
 <pre>cd LaravelUserManagment</pre>
 
 3. Create database
-Create database <pre>laravel_form</pre>
+<pre>laravel_form</pre>
 
 4. Install libaries
 <pre>composer install</pre>
@@ -62,7 +62,8 @@ Create database <pre>laravel_form</pre>
 <pre>php artisan migrate</pre>
 
 6. Run 
-Open your broswer and go to url <pre>localhost/LaravelUserManagment/public</pre>
+Open your broswer and go to url
+<pre>localhost/LaravelUserManagment/public</pre>
 
 
 ## About Laravel
