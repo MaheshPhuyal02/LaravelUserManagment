@@ -52,16 +52,22 @@ First install xampp and run php(Apache) and mysql. Go to xampp folder and inside
 2. Go to folder
 <pre>cd LaravelUserManagment</pre>
 
-3. Create database
+3. Copy .env.example file to .env file
+<pre>cp .env.example .env</pre>
+
+4. Generate key
+<pre>php artisan key:generate</pre>
+
+5. Create database
 <pre>laravel_form</pre>
 
-4. Install libaries
+6. Install libaries
 <pre>composer install</pre>
 
-5. Run migration
+7. Run migration
 <pre>php artisan migrate</pre>
 
-6. Run 
+8. Run 
 Open your broswer and go to url
 <pre>localhost/LaravelUserManagment/public</pre>
 
